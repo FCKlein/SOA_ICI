@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="@string/ColorPickerTitle"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtTitle"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="20dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnColor"
+            android:enabled="true"
+            android:clickable="false"
+            android:layout_marginBottom="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+            <TextView
+                android:text="@string/Red"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/txtRed"
+                android:layout_width="53.0dp"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+            <SeekBar
+                android:id="@+id/sliderRed"
+                android:max="255"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="0dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout3">
+            <TextView
+                android:text="@string/Green"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/txtGreen"
+                android:layout_width="53.0dp"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+            <SeekBar
+                android:id="@+id/sliderGreen"
+                android:max="255"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout4">
+            <TextView
+                android:text="@string/Blue"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/txtBlue"
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+            <SeekBar
+                android:id="@+id/sliderBlue"
+                android:max="255"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

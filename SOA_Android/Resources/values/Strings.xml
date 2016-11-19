@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName"></string>
+  <string name="MainMenuTitle">Seleccione un\nmodo de trabajo</string>
+  <string name="ReadButton">Obtener información de Arduino</string>
+  <string name="WriteButton">Enviar información de los sensores</string>
+  <string name="ConfigButton">Configuración</string>
+  <string name="Red">Rojo</string>
+  <string name="Green">Verde</string>
+  <string name="Blue">Azul</string>
+  <string name="ColorPickerTitle">Ajuste el color con los sliders</string>
+  <string name="ConfigTitle">Configuración de colores</string>
+  <string name="TemperatureTitle">Colores de temperatura</string>
+  <string name="HumidityTitle">Colores de humedad</string>
+  <string name="ProximityTitle">Colores de proximidad</string>
+  <string name="HourTitle">Colores de hora</string>
+  <string name="LowColorIs">El color de valor bajo es...</string>
+  <string name="HighColorIs">El color de valor alto es...</string>
+  <string name="ZeroHourColorIs">El color a las 0:00 es...</string>
+  <string name="TwentyFourHourColorIs">El color a las 23:59 es...</string>
+  <string name="ColorIsWhen">Cuando el valor es...</string>
+  <string name="ReadingTitle">Sensores de Arduino</string>
+  <string name="WritingTitle">Sensor de Android</string>
+</resources>
